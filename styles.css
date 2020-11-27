@@ -1,0 +1,185 @@
+/* 
+	CSS by Kristoffer Egholm Wendelboe 
+	UCN MMD 2020
+*/
+@import url('https://fonts.googleapis.com/css2?family=Fjord+One&display=swap');
+
+body {
+	font-family: 'Fjord One', serif;
+}
+
+body {
+	margin: 0;
+	padding: 0;
+}
+
+.zoo-PageContainer {
+	width: 100vw;
+	height: 200vh;
+	background-color: rgb(127, 153, 102);
+}
+
+
+/* HEADER  */
+
+header {
+	display: block;
+	width: 100%;
+	height: 190px;
+}
+
+header img {
+	width: 140px;
+	height: 67px;
+	display: inline-block;
+	float: left;
+	margin: 3px 20px;
+}
+
+
+
+nav {
+	width: 100%;
+	height: 92px;
+	background-color: rgb(255, 255, 255);
+}
+
+nav ul li {
+	display: inline-block;
+	float: left;
+	
+}
+
+nav ul li a {
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	height: 92px;
+	width: 110px;
+	padding: 0px 5px;
+	text-align: center;
+	background-color: white;
+	color: darkgreen;
+	text-decoration: none;
+	font-weight: bold ;
+}
+
+nav ul li a:hover {
+	color: rgb(127, 153, 102);
+}
+
+.zoo-Header_Buttons {
+	width: 100%;
+	height: 100px;
+	background-color: rgb(127, 153, 102);
+	display: flex;
+	justify-content: center;
+	align-items: center;
+}
+
+.zoo-Header_Buttons ul li a {
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	height: 55px;
+	width: 220px;
+	padding: 0px 5px;
+	margin-left: 1px;
+	text-align: center;
+	background-color: white;
+	color: rgb(127, 153, 102);
+	text-decoration: none;
+	border-radius: 5px;	
+}
+
+.zoo-Header_Buttons ul li a:hover {
+	background-color: lightgray;
+}
+
+.zoo-Header_Buttons ul li {
+	display: inline-block;
+	float: left;
+	
+}
+
+/* CONTENT */
+
+.zoo-ContentContainer {
+	width: 96vw;
+	height: 800px;
+	margin: 2vw;
+}
+
+.zoo-Banner {
+	width: 100%;
+	height: 800px;
+}
+
+.zoo-Banner video {
+	margin: 10px 0px;
+	width: 100%;
+	height: auto;
+}
+
+
+
+
+
+
+
+
+/* FOOTER  */
+
+footer {
+	width: 100%;
+	height: 580px;
+	background-color: rgb(94, 114, 77);
+	float: left;
+	color: white;
+}
+
+.zoo-BoxContainer1 {
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	width: 100%;
+	height: 266px;
+}
+
+.zoo-Footer_Box {
+	margin: 2%;
+	width: 20%;
+	height: 266px;
+	box-sizing: border-box;
+	border: solid 1px rgb(1, 73, 40);
+}
+
+.zoo-Footer_Box ul li {
+	line-height: 1.8rem;
+	list-style-type: none;
+}
+
+
+.zoo-BoxContainer2 {
+	width: 100%;
+	height: 120;
+	float: left;
+}
+
+footer img {
+	margin: 50px 0 0 100px;
+	width: 100px;
+	height: 50px;
+}
+
+
+
+
+
+@media screen and (min-width: 768px) {}
+
+
+
+@media screen and (min-width: 1024px) {
+
+}
